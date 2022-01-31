@@ -1,0 +1,21 @@
+
+body {
+    display: block;
+}
+
+section {
+    padding: 1em;
+}
+
+.twoColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h3 {
+    margin-top: 1em;
+}
