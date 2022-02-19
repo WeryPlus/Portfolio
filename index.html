@@ -2,104 +2,165 @@
 
 <html lang="en">
 <head>
-    <!-- Datos que describen el documento -->
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>WeryPlus - Portfolio</title>
-    <meta name="description"    content="Initial page for Weryplus's Portfolio">
-    <meta name="author"         content="Andrés Martínez Rodríguez, AKA. WeryPlus">
-    <meta name ="viewport"      content ="width=device-width, initial scale=1.0" />
-    <link rel="icon" href="media/img/logo.png" type="image/x-icon" />
-	<link rel="stylesheet"  type="text/css" href="css/general.css" />
+    <meta name="description" content="Initial page for Weryplus's Portfolio">
+    <meta name="author" content="Andrés Martínez Rodríguez, AKA. WeryPlus">
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <link rel="icon" href="media/img/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/general.css"/>
 </head>
 
-<header>
 
+<header>
     <h1> WeryPlus' Portfolio </h1>
 
+    <script>
+        document.body.style.backgroundImage = "url('media/img/bgs/bg" + Math.floor(Math.random() * 8) + ".png')";
+    </script>
 </header>
 
 <body>
-
+<section class="content">
     <h2> About Me </h2>
-        <h3> Who is Andrés 'Sitoo' Martínez? </h3>
-            <p> I am currently studing the bilingual modality of the grade in Software Engeneering from the University of Oviedo.  </p>
-            
-            <section class="twoColumns">
-            <p> [FOTO AQUI]  </p>
-            <img src="media/img/RAA-ton Sitoo.png" alt="WeryPlus Logo in 2022" width="10%"\>
-            </section>
+    <h3> Who is Andrés 'Sitoo' Martínez? </h3>
+    <p> I am currently studying the bilingual modality of the grade in Software Engineering from the University of
+        Oviedo. </p>
 
-        <h3> Who is WeryPlus? </h3>
-            <p> WeryPlus is the tag I created when I was a child as a name just like "on of those YouTuber's name" and that with time I started using it as my Dev nickname as a tribute to the memories I have of enjoying games as a kid and to my little brother who helped me chose it at that time. </p>
-            <p> [LOGO AQUI]  </p>
-            <!--
-            <img src="media/img/weryLogo.png" alt="WeryPlus Logo in 2022" \>
-            -->
+    <section class="twoColumns">
+        <p> [FOTO AQUI] </p>
+        <img src="media/img/RAA-ton Sitoo.png" alt="Sitoo RAAtón" \>
+    </section>
+
+    <h3> Who is WeryPlus? </h3>
+    <p> WeryPlus is the tag I created when I was a child as a name just like "on of those YouTuber's name" and that with
+        time I started using it as my Dev nickname as a tribute to the memories I have of enjoying games as a kid and to
+        my little brother who helped me chose it at that time. </p>
+    <img src="media/img/weryLogo.jpg" alt="WeryPlus Logo in 2022" style = "width: 25% !important;" \>
 
     <h2> My Games / Applications </h2>
-        <h3> KotonHunt (VR) </h3>
-            <section class="twoColumns">
-                <section>
-                    <p> KotonHunt is what I consider my first real game, which I created for my <b>Accesibility & Augmented Reality</b> class with University of Oviedo. </p>
-                    <p> This game is a story-based game, which drives you through the story of an ancient village which was corrupted by evil. The mission of the player is to obtain the position of every one of the hidden piggies, which can be obtained after completing a puzzle. </p>
-                    <p> This game was created as a experiment with VR on android mobiles, where I tried to create an interesting game to play, while being able to show my capabilities with everything I learned from the course. </p>
-                    <p> Created with Unity for Android (VR) - 24 of October, 2021. </p> 
-                </section>
-                <section>
-                    <p> Here you can see the trailer of the game: </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZCbBIvPsiU" title="KotonHunt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section>
-            </section>
+    <h3> KotonHunt (VR) </h3>
+    <section class="twoColumns">
+        <section class="textColumn">
+            <p> KotonHunt is what I consider my first real game, which I created for my <b>Accessibility & Augmented
+                Reality</b> class with University of Oviedo. </p>
+            <p> This game is a story-based game, which drives you through the story of an ancient village which was
+                corrupted by evil. The mission of the player is to obtain the position of every one of the hidden
+                piggies, which can be obtained after completing a puzzle. </p>
+            <p> This game was created as a experiment with VR on android mobiles, where I tried to create an interesting
+                game to play, while being able to show my capabilities with everything I learned from the course. </p>
+            <p> Created with Unity for Android (VR) - 24 of October 2021. </p>
+        </section>
+        <section class="imgColumn">
+            <p> Here you can see the trailer of the game: </p>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/XZCbBIvPsiU" title="KotonHunt"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
 
-        <h3> KotonHunt: The Card Game (AR) </h3>
-            <section class="twoColumns">
-                <section>
-                    <p> KotonHunt: The Card Game was born with the idea of adapting the experience of playing KotonHunt to the real life by using your mobile phone. It was once again created for my AR course. </p>
-                    <p> This game is a simple android app that has a very colourful menu with images from the original KotonHunt game. </p>
-                    <p> This game was created as a way of learning how android apps work and more specifically AR ones. This is actually the first time I worked with the Unity's GUI system and I was able to experiment with data storage between sessions. </p>
-                    <p> Created with Unity for Android (AR) - 12 of January, 2022. </p> 
-                </section>
-                <section>
-                    <p> Here you can see a video-explanation of the game: </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K4Mgp51rH_M" title="KotonHunt: The Card Game" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section> 
-            </section>
+    <h3> KotonHunt: The Card Game (AR) </h3>
+    <section class="twoColumns">
+        <section class="textColumn">
+            <p> KotonHunt: The Card Game was born with the idea of adapting the experience of playing KotonHunt to the
+                real life by using your mobile phone. It was once again created for my AR course. </p>
+            <p> This game is a simple android app that has a very colourful menu with images from the original KotonHunt
+                game. </p>
+            <p> This game was created as a way of learning how android apps work and more specifically AR ones. This is
+                actually the first time I worked with the Unity's GUI system and I was able to experiment with data
+                storage between sessions. </p>
+            <p> Created with Unity for Android (AR) - 12 of January 2022. </p>
+        </section>
+        <section class="imgColumn">
+            <p> Here you can see a video-explanation of the game: </p>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/K4Mgp51rH_M" title="KotonHunt: The Card Game"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
 
-        <h3> Cheescape (Oculur VR) </h3>
-            <section class="twoColumns">
-                <section>
-                    <p> Cheescape is probably the game I am most proud of making so far. This app was created in a group project in which I played the role of coordinator/lead-developer. We were six people and each one of us designed and programmed our own room. </p>
-                    <p> This game is a story-based puzzle game which resembles the typical escape room. The story shows you images from the past that follow the path of a mice that once walked the path in front of you. The main goal of the game is to have the player immersed in the story while trying to think how to get to the next room. </p>
-                    <p> This game was createdas a way of testing the developer options given by Oculus. While we encountered a lot of problems and spent a lot of time working on putting it all together the feeling of having a final 30 min game was amazing for us. We might upload the game to the Oculus Store shortly. </p>
-                    <p> Created with Unity for Oculus - 13 of January, 2022. </p> 
-                </section>
-                <section>
-                    <p> Here you can see a the StoryBoard of Cheescape: </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R8fpyQTbwP8" title="Cheescape: StoryBoard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                    <p> Here you can see a the full gameplay of Cheescape: </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8TN9X8zn0L0" title="Cheescape: Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                </section>
-            </section>
+    <h3> Cheescape (Oculur VR) </h3>
+    <section class="twoColumns">
+        <section class="textColumn">
+            <p> Cheescape is probably the game I am most proud of making so far. This app was created in a group project
+                in which I played the role of coordinator/lead-developer. We were six people and each one of us designed
+                and programmed our own room. </p>
+            <p> This game is a story-based puzzle game which resembles the typical escape room. The story shows you
+                images from the past that follow the path of a mice that once walked the path in front of you. The main
+                goal of the game is to have the player immersed in the story while trying to think how to get to the
+                next room. </p>
+            <p> This game was createdas a way of testing the developer options given by Oculus. While we encountered a
+                lot of problems and spent a lot of time working on putting it all together the feeling of having a final
+                30 min game was amazing for us. We might upload the game to the Oculus Store shortly. </p>
+            <p> Created with Unity for Oculus - 13 of January 2022. </p>
+        </section>
+        <section class="imgColumn">
+            <p> Here you can see a the StoryBoard of Cheescape: </p>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/R8fpyQTbwP8" title="Cheescape: StoryBoard"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <p> Here you can see a the full gameplay of Cheescape: </p>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/8TN9X8zn0L0" title="Cheescape: Gameplay"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
 
     <h2> 3D Models </h2>
-        <p> Some 3D Models I created with MagikaVoxel for the game Cheescape: </p>
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/2oE7P"></iframe>
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/5JD1T"></iframe>
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/9OwE0"></iframe>
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/Zxh1H"></iframe>
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/Ncqzb"></iframe>
+    <p> Some 3D Models I created with MagikaVoxel for the game Cheescape: </p>
+    <section class="twoColumns">
+        <div class="iframe-container">
+            <iframe allowfullscreen loading="lazy" src="https://p3d.in/e/2oE7P"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe allowfullscreen loading="lazy" src="https://p3d.in/e/5JD1T"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe allowfullscreen loading="lazy" src="https://p3d.in/e/9OwE0"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe allowfullscreen loading="lazy" src="https://p3d.in/e/Zxh1H"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe allowfullscreen loading="lazy" src="https://p3d.in/e/Ncqzb"></iframe>
+        </div>
+    </section>
 
     <h2> Pixel Art </h2>
-        <p> TODO... </p>
+    <p> TODO... </p>
 
 
     <h2> Kudos </h2>
-        <p> During my time in the University of Oviedo, some of the projects I have been working on have been recognized and praised by the school. Here are some of the tweets. </p>
-        <section class="twoColumns">
-            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">KotonHunt es una práctica de nuestro alumno Andrés Martínez para la asignatura Realidad Aumentada. ¡Este trailer promete! ¡Gran trabajo!<a href="https://t.co/qXy4v5zaC2">https://t.co/qXy4v5zaC2</a></p>&mdash; Informática Oviedo (@ComputingOviedo) <a href="https://twitter.com/ComputingOviedo/status/1449740256954179590?ref_src=twsrc%5Etfw">October 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡Nuestros alumnos Sito, Ce, Josu, Ali, Ari y Elena de la asignatura Realidad Aumentada nos sorprenden con este increíble juego para Oculus Quest 2!<a href="https://t.co/65wYAVIEFO">https://t.co/65wYAVIEFO</a></p>&mdash; Informática Oviedo (@ComputingOviedo) <a href="https://twitter.com/ComputingOviedo/status/1482039554999730183?ref_src=twsrc%5Etfw">January 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </section>
+    <p> During my time in the University of Oviedo, some projects I have been working on have been recognized and
+        praised by the school. Here are some of the tweets. </p>
+    <section class="twoColumns">
+
+        <blockquote class="twitter-tweet"><p lang="es" dir="ltr">KotonHunt es una práctica de nuestro alumno Andrés
+            Martínez para la asignatura Realidad Aumentada. ¡Este trailer promete! ¡Gran trabajo!<a
+                    href="https://t.co/qXy4v5zaC2">https://t.co/qXy4v5zaC2</a></p>&mdash; Informática Oviedo
+            (@ComputingOviedo) <a
+                    href="https://twitter.com/ComputingOviedo/status/1449740256954179590?ref_src=twsrc%5Etfw">October
+                17, 2021</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡Nuestros alumnos Sito, Ce, Josu, Ali, Ari y Elena de
+            la asignatura Realidad Aumentada nos sorprenden con este increíble juego para Oculus Quest 2!<a
+                    href="https://t.co/65wYAVIEFO">https://t.co/65wYAVIEFO</a></p>&mdash; Informática Oviedo
+            (@ComputingOviedo) <a
+                    href="https://twitter.com/ComputingOviedo/status/1482039554999730183?ref_src=twsrc%5Etfw">January
+                14, 2022</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </section>
 </body>
 
 <footer>
