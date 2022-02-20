@@ -19,6 +19,7 @@ body {
     display: block;
     border-radius: 15px;
     color: white;
+    position: center;
 }
 
 .textColumn, .imgColumn {
